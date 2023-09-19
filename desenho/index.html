@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="canvas" width="900" height="700">
+    </canvas>
+
+    <div id="paleta-cor-linha">
+        <div class="botao-cor" style="background-color: rgb(255, 242, 0);" onclick="definirCorLinha('yellow')"></div>
+        <div class="botao-cor" style="background-color: white;" onclick="definirCorLinha('white')"></div>
+        <div class="botao-cor" style="background-color: rgb(111, 211, 255);" onclick="definirCorLinha('rgb(111, 211, 255)')"></div>
+        <!-- adicione mais cores de linha conforme necessário -->
+    </div>
+    
+    <button onclick="ativarModoPreenchimento()"><img src="baldezinho.png" alt="balde de preenchimento"></button>
+   
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas {
+    border: 2px solid black;
+}
+
+body {
+    text-align: center;
+    background-color: bisque;
+}
+
+.botao-cor {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#paleta-cor-linha {
+    margin-top: -705px;
+    margin-left: 225px;
+}
+
+button {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-right: 1045px;
+    margin-top: 0px;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+}
+
+
